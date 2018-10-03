@@ -1,0 +1,8 @@
+import matplotlib.pyplot as plt
+import matplotlib.image as mpimg
+#import numpy as np
+
+im=mpimg.imread('D:\我的文档\Pictures\Saved Pictures\放学被人亲了.png')
+plt.text(175,175,'4',fontsize=30,color='red')
+plt.imshow(im)
+plt.show()
